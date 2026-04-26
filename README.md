@@ -19,8 +19,8 @@
 | Name                  | Role                             |
 | --------------------- | -------------------------------- |
 | Christian Paul Manota | Initial Developer / Workshop Facilitator |
-| Christian Paul Manota | Developer / Workshop Facilitator |
-| Christian Paul Manota | Security Auditor / Workshop Facilitator |
+| Jay Ar Juson          | Developer / Workshop Facilitator |
+| Sean Alexis Montilla  | Security Auditor / Workshop Facilitator |
 
 
 ---
@@ -360,7 +360,7 @@ php artisan view:clear
 | Institution  | Assumption College of Davao — BSIT Program   |
 | Dates        | May 4–6, 2026                                |
 | Schedule     | 1:00 PM – 5:00 PM daily                      |
-| Facilitators | Christian Paul Manota, Jay ar, Sean          |
+| Facilitators | Christian Paul Manota, Jay ar Juson, Sean Alexis Montilla |
 
 ---
 
