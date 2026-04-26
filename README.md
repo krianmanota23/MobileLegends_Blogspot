@@ -1,66 +1,366 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🎮 Mobile Legends Blogspot
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <b>A game-themed full-stack blog web application built with Laravel 12 and Tailwind CSS v4.</b><br>
+  Developed as part of the ACD AI-Powered Web Development Workshop 2026.
 </p>
 
-## About Laravel
+<p align="center">
+  <img src="https://img.shields.io/badge/Laravel-12.x-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Tailwind-v4-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/PHP-8.2.x-purple?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Node.js-22.x-green?style=for-the-badge">
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 👥 Team
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+| Name                  | Role                             |
+| --------------------- | -------------------------------- |
+| Christian Paul Manota | Developer / Workshop Facilitator |
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🧰 Tech Stack & Required Versions
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+> ⚠️ IMPORTANT: Use EXACT versions listed below to avoid compatibility issues.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+| Software     | Version            | Download                      |
+| ------------ | ------------------ | ----------------------------- |
+| XAMPP        | PHP 8.2.4 bundled  | https://www.apachefriends.org |
+| PHP          | 8.2.x              | Bundled inside XAMPP          |
+| Composer     | 2.x                | https://getcomposer.org       |
+| Laravel      | 12.x               | Installed via Composer        |
+| Tailwind CSS | v4 (latest)        | Installed via npm             |
+| Node.js      | v22.x LTS          | https://nodejs.org            |
+| NPM          | 10.x               | Bundled with Node.js          |
+| MySQL        | Bundled with XAMPP | https://www.apachefriends.org |
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## ⚙️ Local Setup Instructions for Collaborators
 
-### Premium Partners
+> 📌 Follow these steps EXACTLY and in ORDER to get the project running on your machine.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+---
 
-## Contributing
+### 🪜 Step 1 — Install Required Software
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Install the following before cloning the project:
 
-## Code of Conduct
+* XAMPP (with PHP 8.2.4) → https://www.apachefriends.org
+* Composer → https://getcomposer.org
+* Node.js v22 LTS → https://nodejs.org
+* Git → https://git-scm.com
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Verify your installations by running these commands:
 
-## Security Vulnerabilities
+```bash
+php -v
+composer --version
+node -v
+npm -v
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+### 🟢 Step 2 — Start XAMPP
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Open XAMPP Control Panel and start both:
+
+* ✅ Apache
+* ✅ MySQL
+
+---
+
+### 📥 Step 3 — Clone the Repository
+
+```bash
+git clone https://github.com/krianmanota23/blogspot-mobilelegends.git
+cd blogspot-mobilelegends
+```
+
+---
+
+### 📦 Step 4 — Install PHP Dependencies
+
+```bash
+composer install
+```
+
+---
+
+### 📦 Step 5 — Install Node Dependencies
+
+```bash
+npm install
+```
+
+---
+
+### 🧾 Step 6 — Create Environment File
+
+```bash
+cp .env.example .env
+```
+
+Then open the .env file and update these values:
+
+```env
+APP_NAME="Mobile Legends Blogspot"
+APP_ENV=local
+APP_DEBUG=true
+APP_URL=http://localhost:8000
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=blogspot
+DB_USERNAME=root
+DB_PASSWORD=
+SESSION_DRIVER=database
+```
+
+---
+
+### 🔑 Step 7 — Generate Application Key
+
+```bash
+php artisan key:generate
+```
+
+---
+
+### 🗄️ Step 8 — Create the Database
+
+1. Open your browser and go to: http://localhost/phpmyadmin
+2. Click "New" on the left sidebar
+3. Name the database: blogspot
+4. Click "Create"
+
+---
+
+### 🧱 Step 9 — Run Database Migrations
+
+```bash
+php artisan migrate
+```
+
+You should see these tables created:
+
+* ✅ posts
+* ✅ sessions
+* ✅ cache
+* ✅ jobs
+
+---
+
+### 🔗 Step 10 — Create Storage Link for Image Uploads
+
+```bash
+php artisan storage:link
+```
+
+---
+
+### 🚀 Step 11 — Run the Development Servers
+
+Open TWO terminal windows and run one command in each:
+
+**Terminal 1:**
+
+```bash
+php artisan serve
+```
+
+**Terminal 2:**
+
+```bash
+npm run dev
+```
+
+---
+
+### 🌐 Step 12 — Open the App
+
+Visit: http://localhost:8000
+
+---
+
+## 🔐 Admin Access
+
+| Field    | Value                       |
+| -------- | --------------------------- |
+| URL      | http://localhost:8000/login |
+| Username | mladmin                     |
+| Password | mobilelegends2026           |
+
+> ⚠️ These are static credentials hardcoded in AuthController.php
+> Change them before any public deployment.
+
+---
+
+## 🗄️ Database Schema
+
+### posts table
+
+| Column         | Type                 | Description                          |
+| -------------- | -------------------- | ------------------------------------ |
+| id             | bigint               | Primary key                          |
+| title          | string               | Post headline                        |
+| slug           | string (unique)      | URL-friendly title                   |
+| excerpt        | text (nullable)      | Short preview shown on homepage      |
+| content        | longtext             | Full blog post body                  |
+| featured_image | string (nullable)    | Path to uploaded image               |
+| category       | string               | Hero Guide, Patch Notes, Event, etc. |
+| status         | enum                 | published or draft                   |
+| author         | string               | Static admin name                    |
+| published_at   | timestamp (nullable) | When post went live                  |
+| created_at     | timestamp            | Auto-generated by Laravel            |
+| updated_at     | timestamp            | Auto-generated by Laravel            |
+
+### sessions table
+
+| Column        | Type   | Description                   |
+| ------------- | ------ | ----------------------------- |
+| id            | string | Unique session ID             |
+| ip_address    | string | Visitor IP address            |
+| user_agent    | text   | Browser information           |
+| payload       | text   | Encrypted session data        |
+| last_activity | int    | Unix timestamp of last action |
+
+---
+
+## 📁 Project Structure
+
+```bash
+blogspot/
+├── app/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   │   ├── PostController.php    ← CRUD for posts
+│   │   │   └── AuthController.php    ← Static login/logout
+│   │   └── Middleware/
+│   │       └── AdminMiddleware.php   ← Protects admin routes
+│   └── Models/
+│       └── Post.php                  ← Post model with fillable
+├── database/
+│   └── migrations/                   ← posts + sessions tables
+├── resources/
+│   ├── css/
+│   │   └── app.css                   ← Tailwind CSS v4 entry
+│   └── views/
+│       ├── layouts/
+│       │   └── app.blade.php         ← Master layout
+│       ├── auth/
+│       │   └── login.blade.php       ← Admin login page
+│       ├── posts/
+│       │   ├── index.blade.php       ← Public homepage
+│       │   └── show.blade.php        ← Single post detail
+│       └── admin/
+│           └── posts/
+│               ├── index.blade.php   ← Admin dashboard
+│               ├── create.blade.php  ← Create post form
+│               └── edit.blade.php    ← Edit post form
+├── routes/
+│   └── web.php                       ← All application routes
+├── storage/
+│   └── app/public/images/            ← Uploaded post images
+├── .env                              ← Environment config (not in git)
+├── .env.example                      ← Template for collaborators
+├── vite.config.js                    ← Vite + Tailwind v4 config
+└── README.md                         ← This file
+```
+
+---
+
+## 🌐 Application Routes
+
+| Method | URL                    | Description                    | Access     |
+| ------ | ---------------------- | ------------------------------ | ---------- |
+| GET    | /                      | Homepage — all published posts | Public     |
+| GET    | /post/{slug}           | Single post detail             | Public     |
+| GET    | /login                 | Admin login page               | Public     |
+| POST   | /login                 | Submit login form              | Public     |
+| POST   | /logout                | Logout admin                   | Admin      |
+| GET    | /admin/posts           | Admin dashboard                | Admin only |
+| GET    | /admin/posts/create    | Create post form               | Admin only |
+| POST   | /admin/posts           | Save new post                  | Admin only |
+| GET    | /admin/posts/{id}/edit | Edit post form                 | Admin only |
+| PUT    | /admin/posts/{id}      | Update post                    | Admin only |
+| DELETE | /admin/posts/{id}      | Delete post                    | Admin only |
+
+---
+
+## 🔒 Security Notes
+
+* All admin routes are protected by AdminMiddleware
+* Static login credentials are hardcoded in AuthController.php
+* All forms include @csrf protection
+* File uploads validate type (jpg, jpeg, png, gif) and size (max 2MB)
+* All Blade output uses {{ }} — never {!! !!}
+* Session driver is set to database
+
+---
+
+## 🎨 UI Theme
+
+| Role               | Color          | Hex     |
+| ------------------ | -------------- | ------- |
+| Primary background | Dark navy      | #0A0E1A |
+| Card background    | Dark blue-gray | #111827 |
+| Accent / highlight | ML Gold        | #C89B3C |
+| Hero text          | Bright white   | #F5F5F5 |
+| Muted text         | Light gray     | #9CA3AF |
+| Danger / Delete    | Red            | #DC2626 |
+| Success / Save     | Teal           | #0D9488 |
+
+---
+
+## 📋 Common Commands Reference
+
+```bash
+# Start development servers (run both in separate terminals)
+php artisan serve
+npm run dev
+
+# Database
+php artisan migrate
+php artisan migrate:rollback
+php artisan migrate:status
+
+# Create new files
+php artisan make:model ModelName
+php artisan make:controller ControllerName --resource
+php artisan make:migration create_table_name
+
+# Storage
+php artisan storage:link
+
+# View all routes
+php artisan route:list
+
+# Clear caches
+php artisan cache:clear
+php artisan config:clear
+php artisan view:clear
+```
+
+---
+
+## 🏫 Workshop Information
+
+| Detail       | Info                                         |
+| ------------ | -------------------------------------------- |
+| Event        | ACD AI-Powered Web Development Workshop 2026 |
+| Institution  | Assumption College of Davao — BSIT Program   |
+| Dates        | May 4–6, 2026                                |
+| Schedule     | 1:00 PM – 5:00 PM daily                      |
+| Facilitators | Christian Paul Manota, Jay ar, Sean          |
+
+---
+
+<p align="center">
+  <i>Built with ❤️ for the ACD BSIT AI Workshop 2026</i>
+</p>
