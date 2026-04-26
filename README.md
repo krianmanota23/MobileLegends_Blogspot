@@ -6,10 +6,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Laravel-12.x-red?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Tailwind-v4-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/PHP-8.2.x-purple?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Node.js-22.x-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Laravel-12(LTS)-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Tailwind-v4(LTS)-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/PHP-8.2.12-purple?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Node.js-22.20.0-green?style=for-the-badge">
 </p>
 
 ---
@@ -18,7 +18,10 @@
 
 | Name                  | Role                             |
 | --------------------- | -------------------------------- |
+| Christian Paul Manota | Initial Developer / Workshop Facilitator |
 | Christian Paul Manota | Developer / Workshop Facilitator |
+| Christian Paul Manota | Security Auditor / Workshop Facilitator |
+
 
 ---
 
@@ -28,13 +31,13 @@
 
 | Software     | Version            | Download                      |
 | ------------ | ------------------ | ----------------------------- |
-| XAMPP        | PHP 8.2.4 bundled  | https://www.apachefriends.org |
-| PHP          | 8.2.x              | Bundled inside XAMPP          |
-| Composer     | 2.x                | https://getcomposer.org       |
-| Laravel      | 12.x               | Installed via Composer        |
+| XAMPP        | PHP bundled         | https://www.apachefriends.org |
+| PHP          | 8.2.12              | Bundled inside XAMPP          |
+| Composer     | 2.9.5                | https://getcomposer.org       |
+| Laravel      | 12 (latest)        | Installed via Composer        |
 | Tailwind CSS | v4 (latest)        | Installed via npm             |
-| Node.js      | v22.x LTS          | https://nodejs.org            |
-| NPM          | 10.x               | Bundled with Node.js          |
+| Node.js      | v22.20.0           | https://nodejs.org            |
+| NPM          | 10.9.3             | Bundled with Node.js          |
 | MySQL        | Bundled with XAMPP | https://www.apachefriends.org |
 
 ---
@@ -49,7 +52,7 @@
 
 Install the following before cloning the project:
 
-* XAMPP (with PHP 8.2.4) → https://www.apachefriends.org
+* XAMPP (with PHP 8.2.12) → https://www.apachefriends.org
 * Composer → https://getcomposer.org
 * Node.js v22 LTS → https://nodejs.org
 * Git → https://git-scm.com
@@ -116,7 +119,7 @@ APP_URL=http://localhost:8000
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=blogspot
+DB_DATABASE=ml_blogspot
 DB_USERNAME=root
 DB_PASSWORD=
 SESSION_DRIVER=database
@@ -136,7 +139,7 @@ php artisan key:generate
 
 1. Open your browser and go to: http://localhost/phpmyadmin
 2. Click "New" on the left sidebar
-3. Name the database: blogspot
+3. Name the database: ml_blogspot
 4. Click "Create"
 
 ---
@@ -362,5 +365,5 @@ php artisan view:clear
 ---
 
 <p align="center">
-  <i>Built with ❤️ for the ACD BSIT AI Workshop 2026</i>
+  <i>Built with inspiration for the ACD BSIT AI Workshop 2026</i>
 </p>
